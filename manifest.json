@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Video Downloader",
+  "version": "1.0",
+  "permissions": ["activeTab", "http://localhost:5000/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
